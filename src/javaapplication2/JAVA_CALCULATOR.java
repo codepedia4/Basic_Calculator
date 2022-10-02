@@ -109,17 +109,17 @@ public class JAVA_CALCULATOR extends javax.swing.JFrame {
         
         switch(op){
             case "+":
-                    result = n1 + n2;
+                    result = n1 + n2; //for addition
                     break;
             case "-":
-                    result = n1 - n2;
+                    result = n1 - n2; //for substraction 
                     break;
             case "*":
-                    result = n1 * n2;
+                    result = n1 * n2; // for multiplication
                     break;
             case "/":
                     if(n2 != 0)
-                       result = n1 / n2;
+                       result = n1 / n2; // fpr division
                     break;
             default:
                     break;        
@@ -143,7 +143,7 @@ public class JAVA_CALCULATOR extends javax.swing.JFrame {
         else{
             return false;
         }
-        
+     
     }
     
     
